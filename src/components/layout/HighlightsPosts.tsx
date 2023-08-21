@@ -8,7 +8,7 @@ export function HighlightsPosts() {
     <div className="space-y-8 py-7 px-7 2xl:px-0">
       <h2 className="text-2xl font-semibold">Recent blog posts</h2>
 
-      <div className="flex flex-col 2xl:flex-row gap-8">
+      <div className="flex flex-col xl:flex-row gap-8">
         {PostHighlight.map((post, index: number) => {
           return (
             <Card
@@ -17,8 +17,8 @@ export function HighlightsPosts() {
             >
               <Image
                 src={post.image}
-                width={400}
-                height={400}
+                width={900}
+                height={900}
                 alt="notice"
                 className="object-cover w-full h-[228px]"
               />
@@ -52,12 +52,12 @@ export function HighlightsPosts() {
               >
                 <Image
                   src={post.image}
-                  width={400}
-                  height={400}
+                  width={900}
+                  height={900}
                   alt="notice"
-                  className="object-cover w-full h-[228px] md:w-[50%] md:h-full"
+                  className="object-cover w-full h-[228px] md:max-w-[50%] md:h-full max-h-[228px]"
                 />
-                <div className="space-y-4 py-9 2xl:py-2">
+                <div className="space-y-4 flex flex-col justify-around py-2">
                   <p className="text-purple-600 text-sm">{post.date}</p>
                   <div className="space-y-2">
                     <h2 className="text-lg font-semibold">{post.title}</h2>

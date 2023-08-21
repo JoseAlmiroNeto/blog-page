@@ -15,8 +15,8 @@ export function NoticePosts() {
           >
             <Image
               src={post.image}
-              width={400}
-              height={400}
+              width={900}
+              height={900}
               alt="notice"
               className="object-cover w-full 2xl:w-[50%] h-[210px] 2xl:h-[246px]"
             />

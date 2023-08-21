@@ -13,13 +13,13 @@ export function AllPosts() {
         items={Posts.map((post, index: number) => {
           return (
             <Card
-              className="w-full lg:w-[48%] min-[1384px]:w-[428px] space-y-6 overflow-hidden shadow-none border-none rounded-none bg-transparent"
+              className="w-full lg:w-[48%] min-[1384px]:w-[428px] space-y-6 overflow-hidden cursor-pointer shadow-none border-none rounded-none bg-transparent hover:scale-105 hover:transition-transform"
               key={index}
             >
               <Image
                 src={post.image}
-                width={400}
-                height={400}
+                width={900}
+                height={900}
                 alt="notice"
                 className="object-cover w-full"
               />
