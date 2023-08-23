@@ -1,8 +1,8 @@
 export function Footer() {
   return (
-    <footer className="py-8 flex gap-4 px-7 2xl:px-0">
+    <footer className="py-8 flex flex-col sm:flex-row gap-4 items-center px-7 2xl:px-0">
       <p>© 2023</p>
-      <ul className="flex gap-4">
+      <ul className="flex flex-col sm:flex-row items-center gap-4">
         <li>
           <a href="">Twitter </a>
         </li>

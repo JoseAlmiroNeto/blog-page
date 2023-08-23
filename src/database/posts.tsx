@@ -106,7 +106,7 @@ export const PostSubHighlights = [
     date: "Sunday , 1 Jan 2023",
     title: "Migrating to Linear 101",
     description:
-      "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...",
+      "Linear helps streamline software projects, sprints, tasks",
     tags: ["Design", "Research"],
   },
   {
