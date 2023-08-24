@@ -1,6 +1,9 @@
 ## Aplication Runing
 open this <a href="https://blog-page-josealmironeto.vercel.app">link</a> in your browser.
 
+## Used Reference
+<a href="https://www.figma.com/file/hUFECOd1Jhfa4nST1a1ZEa/The-Blog---A-Web-Personal-Blog-(Community)?type=design&t=SzNukkRicOEBlvFX-6">figma</a>
+
 ## Getting Started
 
 First, run the development server:
