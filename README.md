@@ -1,7 +1,5 @@
-
-<a target="_blank" href="https://blog-page-josealmironeto.vercel.app">Link da aplicação rodando</a>
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Aplication Runing
+open this <a href="https://blog-page-josealmironeto.vercel.app">link</a> in your browser.
 
 ## Getting Started
 
